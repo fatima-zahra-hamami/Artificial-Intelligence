@@ -13,7 +13,7 @@ Contents:
         - This file contains my implenentation of the arc consistency algorithm on top
           of the LCV implementation I used earlier. This file is used just for question 3
           
-To run either of the 3 files, just enter the following into the terminal:
+To run either of the 3 files, just enter the following into the terminal: 
     - python file_name.py
     
 ** To edit the number of queens to test for each file, just open the file with
