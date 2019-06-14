@@ -1,0 +1,60 @@
+MINIMAX OUTPUT for minimax vs minimax (both at depth 4)
+
+Connect Five!
+Round: 73
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | o | o | x | x | o |
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | o | o | x | x | o |
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | x | o | x | x | x |
+	| o | x | o | o | o | x | o | o | o |
+	| o | x | x | o | x | o | x | o | x |
+	  _   _   _   _   _   _   _   _   _
+	  1   2   3   4   5   6   7   8   9
+Game Over!
+Game was a draw
+
+nodes evaluated for Minimax_1: 574068
+nodes evaluated for Minimax_2: 541141
+total number of nodes evaluated: 1,115,209
+
+Minimax_1: 0 wins, Minimax_2: 0 wins, 1 ties
+
+-------------------------------------------------------------
+ALPHABETA OUTPUT for alphabeta vs alphabeta (both at depth 4)
+
+Connect Five!
+Round: 73
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | o | o | x | x | o |
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | o | o | x | x | o |
+	| o | x | o | o | x | x | o | o | x |
+	| x | o | x | x | x | o | x | x | x |
+	| o | x | o | o | o | x | o | o | o |
+	| o | x | x | o | x | o | x | o | x |
+	  _   _   _   _   _   _   _   _   _
+	  1   2   3   4   5   6   7   8   9
+Game Over!
+Game was a draw
+
+nodes evaluated for alpha_beta_1: 78354
+nodes evaluated for alpha_beta_2: 94212
+total number of nodes evaluated: 172,566
+
+alpha_beta_1: 0 wins, alpha_beta_2: 0 wins, 1 ties
+
+--------------------------------------------------------------
+DETERMINING TOTAL # NODES PRUNED
+
+total for minimax: 1,115,209
+total for alphabeta: 172,566
+
+total nodes pruned: 942,643
+
+Using the formula (old-new)/old --> (1,115,209 - 172,566) / 1,115,209 = ~85%.
+* This was the method suggested by professor on 10/23 lecture *
+
+The best case for AB pruning is O(sqrt(b^d)), so our results are consistent as the best case, WITH perfect ordering
+would be about ~1000 nodes evaluated.
