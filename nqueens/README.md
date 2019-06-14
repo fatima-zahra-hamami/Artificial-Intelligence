@@ -2,6 +2,6 @@ The goal of the N-Queens game is to place N queens on an NxN chess board so no q
 
 Optimized the brute force by reducing the total number of placements of Qeens until a solution is found
 
-    8 Queens: brute-force: 113, AC3: 15
-    10 Queens: brute-force: 102, AC3: 10
-    20 Queens: brute-force: 199,500, AC3: 27
+    8 Queens:  brute-force: 113,      AC3: 15
+    10 Queens: brute-force: 102,      AC3: 10
+    20 Queens: brute-force: 199,500,  AC3: 27
